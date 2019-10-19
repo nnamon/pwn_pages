@@ -10,10 +10,11 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
     console.log(`Using ${usage} out of ${quota} bytes.`);
 
 	if(quota < 120000000){
-        alert('We see you! You are incognito!')
+	document.location = "https://webhook.makerforce.io/bf8d6c94-1c98-4a5a-8ac7-4d3024a14d67"
+        //alert('We see you! You are incognito!')
         console.log('Incognito')
     } else {
-        alert('Not incognito!')
+        //alert('Not incognito!')
         console.log('Not Incognito')
     }	
 } else {
